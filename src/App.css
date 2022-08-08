@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+.nav{
+  color: white;
+  text-decoration: none;
+  }
+
+  button{
+    background-color: #aa2ba3;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 18px;
+    transition: background-color 0.3s ease;
+  }
+  button:hover{
+    background-color: #763a73a4;
+  }
+  button:active{
+    background-color: #512451;
+  }
+  label{
+    margin-bottom: 10px;
+  }
